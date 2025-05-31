@@ -1,0 +1,22 @@
+{
+  "name": "@amadeustech/lokus-cli",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "type": "module",
+  "dependencies": {
+    "@amadeustech/lokus": "^0.3.13",
+    "commander": "^14.0.0"
+  },
+  "bin": {
+    "lokus": "./src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0"
+}
