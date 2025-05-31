@@ -1,6 +1,6 @@
 {
   "name": "@amadeustech/lokus-cli",
-  "module": "index.ts",
+  "main": "src/index.ts",
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -18,5 +18,26 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0"
+  "version": "1.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AltairInglorious/lokus-cli.git"
+  },
+  "description": "CLI to work with lokus files",
+  "homepage": "https://lokus.amadeustech.dev/",
+  "bugs": {
+    "url": "https://github.com/AltairInglorious/lokus-cli/issues"
+  },
+  "author": {
+    "name": "Adam",
+    "url": "https://github.com/AltairInglorious"
+  },
+  "keywords": [
+    "i18n",
+    "lokus",
+    "localization",
+    "internationalization",
+    "translation"
+  ]
 }
